@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #343a40;
+  }
+  
+  header nav a {
+    font-weight: 500;
+  }
+  
+  header .btn {
+    font-weight: 500;
+  }
+  
+  /* Main Content */
+  .card-body h5 {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  
+  .text-success strong {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .card-body .fw-bold strong {
+    font-weight: 700;
+    color: #000; /* Emphasize the total price */
+  }
+  
+  /* Order Summary */
+  .card-body hr {
+    margin: 1rem 0;
+  }
+  
+  .card-body .btn {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  
